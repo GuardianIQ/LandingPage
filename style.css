@@ -50,3 +50,51 @@ background-color: #000000;
     max-width: 100%;
     height: auto;
 }
+
+
+/*Containerv2*/
+.containerv2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerv2  .box {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.containerv2  .box:hover {
+    transform: translateY(-10px);
+}
+
+.containerv2  .box-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.containerv2  .box-description {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .slider {
+        flex-direction: column;
+        align-items: center;
+    }
+}
