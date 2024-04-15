@@ -1,0 +1,52 @@
+
+/*primary color*/
+.bg-cream {
+    background-color: #ffffff;
+}
+
+/*font*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-yellow-500 {
+    background-color: #F9A825;
+}
+
+.bg-black-500 {
+    background-color: #000000;
+}
+.text-yellow-500 {
+    color: #F9A825;
+}
+.text-black-500{
+background-color: #000000;
+}
+.floating { 
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+.slider-container {
+    background-color: #EEF4ED;
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-top: 100px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.img {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+}
