@@ -38,7 +38,7 @@
 						<path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 						<path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
 					</svg>
-			</button>
+				</button>
 			</div>
             
 <nav :class="{ 'transform md:transform-none': !open, 'h-auto md:h-auto': open, 'hidden md:flex': !open }" class="absolute top-full left-0 right-0 bg-gray-200 md:bg-transparent md:relative flex flex-col md:flex-row items-center justify-end md:ml-auto md:mr-8 md:py-0 md:pb-0 pb-4 md:pb-0 duration-300 scale-y-0 md:scale-y-100">
@@ -57,7 +57,7 @@
 	
 	
 	
-<section class="Home" id="Home"></section>
+	<section class="Home" id="Home"></section>
 		<div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
@@ -104,8 +104,7 @@
 				<p class="text-gray-500">GuardianIQ es una plataforma comprometida con la mejora y regulación de la seguridad en el Perú. Nos enfocamos exclusivamente en proporcionar servicios, clases y auditorías para la instalación de sistemas de seguridad IoT en hogares, así como en empresas pequeñas, medianas y grandes.
 				</p>
 			</div>
-			
-   			<div data-aos="fade-up" class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
+			<div data-aos="fade-up" class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
 				<div class="relative md:w-5/12">
 					<img class="rounded-2xl" src="img/adultoIndependiente.jpeg" alt="">
 					<div class="absolute bg-black bg-opacity-20 bottom-0 left-0 right-0 w-full h-full rounded-2xl">
@@ -138,7 +137,8 @@
 		</div>
 </section>
 
-		
+
+    
 </head>
 
 </html>
@@ -166,7 +166,7 @@
 		<p class="box-description">Contrato de personal</p>
 	</div>
    </section>
-<!-- All-In-One Cloud Software. -->
+		<!-- All-In-One Cloud Software. -->
 		<div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
 			<h1 class="font-bold text-darken my-3 text-2xl">All-In-One <span class="text-yellow-500">En el area de seguridad.</span></h1>
 			<p class="leading-relaxed text-gray-500">Deja de preocuparte por la seguridad en tu hogar. Nosotros nos encargamos de implementar los 
@@ -283,6 +283,7 @@
 			<img data-aos="fade-left" class="md:w-7/12" src="img/personas.png">
 		</div>
 	</section>
+		
 
 		
 
@@ -301,41 +302,52 @@
 				
 			</div>
 		</div>
+<!-- TESTIMONIAL -->
+<section class="Reseña" id="Reseña">
+    <div class="mt-24 flex flex-col items-start md:space-x-10">
+        <div data-aos="zoom-in-right" class="md:w-5/12">
+            <div class="flex items-center space-x-20 mb-5">
+                <span class="border border-gray-300 w-14 absolute"></span>
+                <h1 class="text-gray-400 tracking-widest text-sm">RESEÑAS</h1>
+            </div>
+            <h1 class="font-semibold text-darken text-2xl lg:pr-40">Que es lo que dicen?</h1>
+            <p class="text-gray-500 my-5 lg:pr-36">GuardianIQ tiene varias reseñas positivas por el buen desempeño en sus servicios</p>
+            <p class="text-gray-500 my-5 lg:pr-36">Nuestros clientes aseguran que es la opción número uno en seguridad residencial</p>
+            <button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
+                <span>Escribe tu reseña</span>
+                <div class="border border-yellow-500 h-14 w-14 rounded-full flex items-center justify-center">
+                    <svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"/>
+                    </svg>
+                </div>
+            </button>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="./img/reco1.png" alt="Imagen 1" class="img">
+                <img src="./img/reco2.png" alt="Imagen 2" class="img">
+            </div>
+        </div>
+    </div>
+</section>
 
-		<!-- TESTIMONIAL -->
-		<section class="Reseña" id="Reseña"></section>
-		   <div class="mt-24 flex flex-col-reverse md:flex-row items-start md:space-x-10">
-			<div data-aos="zoom-in-right" class="md:w-5/12">
-				<div class="flex items-center space-x-20 mb-5">
-					<span class="border border-gray-300 w-14 absolute"></span>
-					<h1 class="text-gray-400 tracking-widest text-sm">RESEÑAS</h1>
-				</div>
-				<h1 class="font-semibold text-darken text-2xl lg:pr-40">Que es lo que dicen?</h1>
-				<p class="text-gray-500 my-5 lg:pr-36">GuardianIQ tiene varias reseñas positivas por el buen desempeño en sus servicios </p>
-				<p class="text-gray-500 my-5 lg:pr-36"></p>Nuestros clientes aseguran que  es la opción número uno en seguridad residencial</p>
-				
-				<button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
-					<span>Escribe tu reseña</span>
-					<div class="border border-yellow-500 h-14 w-14 rounded-full flex items-center justify-center">
-						<svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"/>
-						</svg>
-					</div>
-				</button>
-			</div>
-			<div class="slider-container">
-				<div class="slider">
-					<img src="./img/reco1.png" alt="Imagen 1" class="img">
-					<img src="./img/reco2.png" alt="Imagen 2" class="img">
-				</div>
-			</div>
-		</section>
-			
-		
-			
+<!-- VIDEO -->
+<div class="video" id="Video">
+    <div class="mt-24 flex flex-col items-center md:space-x-10">
+        
+            <div class="flex justify-center mb-5">
+                
+                <h1 class="text-gray-400  ml-5">VIDEO</h1>
+            </div>
+            <h1 class="font-semibold text-darken text-2xl">Mira Nuestro Video</h1>
+            <p class="text-gray-500 my-5">Descubre más sobre GuardianIQ y lo que podemos ofrecerte en términos de seguridad residencial.</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m7Qkzu7KCjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+        </div>
+    </div>
+</div>
 
-			
-		</div>
 
 		
 	<!-- .container -->
@@ -371,7 +383,7 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<!-- AOS init -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
