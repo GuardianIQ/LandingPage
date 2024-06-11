@@ -98,3 +98,21 @@ background-color: #000000;
         align-items: center;
     }
 }
+
+.video {
+    text-align: center;
+    width: 100%;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 768px) {
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
